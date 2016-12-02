@@ -153,7 +153,7 @@
 						            $(this).data("shownImage", AnimatedUrl);
 
 						            //remove the current image source and replace with the animated source
-						            $(this).removeAttr('src').attr('src', AnimatedUrl);
+						            $(this).attr('src', AnimatedUrl);
 						        }
 
 						        else
@@ -163,7 +163,7 @@
 						                $(this).data("shownImage", StillUrl);
 						                
 						                //remove the current image source and replace with the still source
-						                $(this).removeAttr('src').attr('src', StillUrl);
+						                $(this).attr('src', StillUrl);
 						            }
 
 
